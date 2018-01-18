@@ -7,7 +7,7 @@ body {
 }
 .Header{
   height: 250px;
-  background-color: rgba(255, 255, 255, 0.911);
+   background-color: rgb(250, 250, 250);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,6 +24,7 @@ body {
   background-color: rgba(39, 92, 4, 0.623);
   color: rgb(255, 255, 255);
   padding: 5px;
+  cursor: pointer;
 }
 
 .divLMDA{
@@ -40,10 +41,11 @@ height: 200px;
 display: flex;
 justify-content: space-around;
 height: 50px;
+
 }
 .Liens{
   text-decoration: none;
-  color: rgba(50, 100, 4, 0.726);
+  color: rgba(24, 80, 4, 0.315);
   padding: 20px;
 }
 .divLiens :hover,
@@ -55,6 +57,11 @@ height: 50px;
 .Langues .active{
   color: rgba(23, 133, 1, 0.493);
   background-color: rgb(255, 255, 255);
+}
+.divLiens :hover,
+.divLiens .active{
+  color: rgb(255, 253, 253);
+  background-color: rgba(35, 83, 2, 0.644);
 }
 @media all and (min-width: 640px) and (max-width:1024px) {
 body {
@@ -113,24 +120,25 @@ height: 50px;
 }
 .divLMDA{
   height: 200px;
+
 }
 .LMDA{
 height: 200px;
+width: 200px;
 }
 
 .divLiens{
-  height: 250px;
+  height: 100px;
 display: flex;
- flex-direction: column;
-
+flex-direction: column;
 text-align: center;
-
+ margin-top:100px;
 
 }
 .Liens{
   text-decoration: none;
-  color: rgba(59, 109, 26, 0.788);
-  padding: 15px;
+  color: rgba(24, 80, 4, 0.315);
+   padding: 10px;
 
   
 }
